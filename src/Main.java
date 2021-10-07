@@ -1,5 +1,17 @@
 class Test{
 
+    private static String a = "a";
+    private String a1 = "a1";
+
+    public static String get(){
+        return a;
+    }
+
+    public String get1() {
+        return a;
+    }
+
+
     static int minus(int a, int b){
         int c = a - b;
         System.out.println("minus operation: " + c);
